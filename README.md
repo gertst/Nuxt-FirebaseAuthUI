@@ -1,4 +1,11 @@
-# nuxt-firebase
+# nuxt-vuetify-firebase-auth
+It’s a boilerplate code for using Nuxt JS, Vuetify with Firebase authentication. Follow the Firebase configuration & build setup instructions to use this.
+
+## Firebase Configuration
+- Create your Firebase project & enable **"email/password"** authentication.
+- Add you Firebase project configurations in **"nuxt.config.js"** file in "module" section.
+
+Note: We are using **Nuxt Firebase** library to communicate with Firebase. For more info, check - https://firebase.nuxtjs.org/
 
 ## Build Setup
 
@@ -17,7 +24,7 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+For detailed explanation on how things work, check out the [documentation](https://byteblocks.hashnode.dev/a-user-authentication-system-with-nuxt-js-and-firebase-auth).
 
 ## Special Directories
 
